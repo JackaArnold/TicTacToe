@@ -386,7 +386,7 @@ def test_if_gameover():
 
 def play():
     global board
-    ans = int(input('Where to place'))
+    ans = int(input('Where to place: (1-9)'))
     if board[ans-1] > 0:
         print('Invaild')
         play()
